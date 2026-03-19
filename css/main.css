@@ -1104,18 +1104,19 @@ section + section {
   border-radius: 20px;
   padding: 9px 18px;
   text-decoration: none;
-  border: none;
+  border: 1px solid #f2a3a3; /* WEDDING INVITATION 색상 계열 */
   font-family: 'Pretendard', sans-serif;
   cursor: pointer;
   opacity: 0;
   transform: translateY(16px);
   animation: openingText 0.9s ease forwards;
   animation-delay: 2.6s;
-  transition: background 0.2s;
+  transition: background 0.2s, border-color 0.2s;
 }
 
 .opening-enter:hover {
   background: var(--pink-light);
+  border-color: #ee9696;
 }
 
 .gallery-track,
