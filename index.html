@@ -40,7 +40,10 @@
 		  <div class="opening-line-item line-4 opening-kor opening-subtitle">"우리 결혼합니다"</div>
 		</div>
 
-	  <button class="opening-enter" id="opening-enter" type="button">청첩장 열기</button>
+	  <button class="opening-enter" id="opening-enter" type="button">
+	    <span class="opening-enter-icon">💌</span>
+		<span class="opening-enter-text">청첩장 열기</span>
+	  </button>
 	</div>
   </div>
 
@@ -105,35 +108,78 @@
       <div class="section-title">연락처</div>
 
       <div class="contacts-grid">
-        <div class="contact-card">
-          <div class="contact-role">신랑</div>
-          <div class="contact-name">박주현</div>
-          <a href="tel:010-5091-9772" class="contact-btn">📞 전화하기</a>
+        <div class="contact-column">
+          <div class="contact-column-title">신랑측</div>
+
+          <div class="contact-card">
+            <div class="contact-role">신랑</div>
+            <div class="contact-name">박주현</div>
+            <a href="tel:010-5091-9772" class="contact-btn">
+              <span class="contact-btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="phone-icon" aria-hidden="true"><path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.09 8.32 8.82 8.59L6.62 10.79Z" fill="#ee9aa2"/></svg>
+              </span>
+              <span class="contact-btn-text">전화하기</span>
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-role">신랑 아버지</div>
+            <div class="contact-name">박광철</div>
+            <a href="tel:010-4907-9772" class="contact-btn">
+              <span class="contact-btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="phone-icon" aria-hidden="true"><path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.09 8.32 8.82 8.59L6.62 10.79Z" fill="#ee9aa2"/></svg>
+              </span>
+              <span class="contact-btn-text">전화하기</span>
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-role">신랑 어머니</div>
+            <div class="contact-name">장임숙</div>
+            <a href="tel:010-4623-9772" class="contact-btn">
+              <span class="contact-btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="phone-icon" aria-hidden="true"><path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.09 8.32 8.82 8.59L6.62 10.79Z" fill="#ee9aa2"/></svg>
+              </span>
+              <span class="contact-btn-text">전화하기</span>
+            </a>
+          </div>
         </div>
-        <div class="contact-card">
-          <div class="contact-role">신부</div>
-          <div class="contact-name">문예진</div>
-          <a href="tel:010-4810-7150" class="contact-btn">📞 전화하기</a>
-        </div>
-        <div class="contact-card">
-          <div class="contact-role">신랑 아버지</div>
-          <div class="contact-name">박광철</div>
-          <a href="tel:010-4907-9772" class="contact-btn">📞 전화하기</a>
-        </div>
-        <div class="contact-card">
-          <div class="contact-role">신부 아버지</div>
-          <div class="contact-name">문시태</div>
-          <a href="tel:010-3854-3914" class="contact-btn">📞 전화하기</a>
-        </div>
-        <div class="contact-card">
-          <div class="contact-role">신랑 어머니</div>
-          <div class="contact-name">장임숙</div>
-          <a href="tel:010-4623-9772" class="contact-btn">📞 전화하기</a>
-        </div>
-        <div class="contact-card">
-          <div class="contact-role">신부 어머니</div>
-          <div class="contact-name">정경애</div>
-          <a href="tel:010-8541-7150" class="contact-btn">📞 전화하기</a>
+
+        <div class="contact-column">
+          <div class="contact-column-title">신부측</div>
+
+          <div class="contact-card">
+            <div class="contact-role">신부</div>
+            <div class="contact-name">문예진</div>
+            <a href="tel:010-4810-7150" class="contact-btn">
+              <span class="contact-btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="phone-icon" aria-hidden="true"><path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.09 8.32 8.82 8.59L6.62 10.79Z" fill="#ee9aa2"/></svg>
+              </span>
+              <span class="contact-btn-text">전화하기</span>
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-role">신부 아버지</div>
+            <div class="contact-name">문시태</div>
+            <a href="tel:010-3854-3914" class="contact-btn">
+              <span class="contact-btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="phone-icon" aria-hidden="true"><path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.09 8.32 8.82 8.59L6.62 10.79Z" fill="#ee9aa2"/></svg>
+              </span>
+              <span class="contact-btn-text">전화하기</span>
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-role">신부 어머니</div>
+            <div class="contact-name">정경애</div>
+            <a href="tel:010-8541-7150" class="contact-btn">
+              <span class="contact-btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="phone-icon" aria-hidden="true"><path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.09 8.32 8.82 8.59L6.62 10.79Z" fill="#ee9aa2"/></svg>
+              </span>
+              <span class="contact-btn-text">전화하기</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -219,7 +265,9 @@
         <div class="dday-bar" id="dday-bar"></div>
       </div>
     </section>
-	<br>
+
+    
+	
 	<!-- MAP -->
     <section class="map-section fade-in">
       <div class="section-label">Location</div>
@@ -229,17 +277,14 @@
 		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.4417429408713!2d129.1003727!3d35.1456024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eda04b864ae5%3A0x84aefd9d9216c29a!2z6re4656c65OcIOuqqOuovO2KuA!5e0!3m2!1sko!2skr!4v1773207445716!5m2!1sko!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
 
-      <div class="venue-info">
-        <div class="venue-name">그랜드모먼트 베일홀 B2</div>
-        <div class="venue-addr">
-          부산 남구 황령대로 401-9<br>
-          <span class="venue-phone">📞 문의: 예식장으로 직접 연락</span>
-        </div>
-        <span class="venue-tag">
-		  <span class="venue-tag-icon">🚗</span>
-		  <span class="venue-tag-text">무료 주차 가능</span>
-		</span>
-      </div>
+		<div class="venue-info">
+		  <div class="venue-row venue-row-title">그랜드모먼트 베일홀 B2</div>
+		  <div class="venue-row venue-row-address">부산 남구 황령대로 401-9</div>
+		  <div class="venue-row venue-row-parking">
+			<span class="venue-row-icon">🚗</span>
+			<span class="venue-row-text">3시간 무료 주차</span>
+		  </div>
+		</div>
 
       <div class="map-link-row">
 		  <a href="https://map.naver.com/p/search/%EA%B7%B8%EB%9E%9C%EB%93%9C%EB%AA%A8%EB%A8%BC%ED%8A%B8%20%EC%9C%A0%EC%8A%A4%ED%98%B8%EC%8A%A4%ED%85%94" target="_blank" class="map-link-btn naver">
@@ -264,7 +309,9 @@
         <div class="shuttle-title">🚌 셔틀버스 운행 안내</div>
         <div class="shuttle-desc">
           <strong>승하차 장소</strong><br>
-          남천역 4번 출구 230m 앞 더샾 입구 (103동 근처)
+          남천역 4번 출구 230m 앞 더샾 입구 (103동 근처)<br>
+		  <strong>탑승 시간</strong><br>
+		  매 시 5분, 20분, 35분, 50분
         </div>
       </div>
 	  <br><br>
